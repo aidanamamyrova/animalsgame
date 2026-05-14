@@ -354,12 +354,12 @@ function AnimalsExercise() {
                 <div key={item.id} className="animals-match-row">
                   <div className="animal-bubble">{item.text}</div>
 
-                  <img
-                    src={`/src/assets/animals/${item.img}`}
-                    className="animal-img"
-                    alt=""
-                  />
-
+                 <img
+  src={`/animals/${item.img}`}
+  className="animal-img"
+  alt=""
+/>
+                
                   <div
                     className={`animal-dot
                       ${activeStart?.id === item.id ? "active" : ""}
