@@ -34,7 +34,7 @@ function BirdsExercise() {
       audioRef.current.currentTime = 0;
     }
 
-    const audio = new Audio(`/src/assets/animals/sounds/${audioFile}`);
+    const audio = new Audio(`/animals/sounds/${audioFile}`);
     audioRef.current = audio;
     audio.play();
   };
@@ -417,7 +417,7 @@ const handleNextClick = () => {
                   <div className="animal-bubble">{item.text}</div>
 
                   <img
-                    src={`/src/assets/animals/${item.img}`}
+                    src={`/animals/${item.img}`}
                     className="animal-img"
                     alt=""
                   />
@@ -446,7 +446,7 @@ const handleNextClick = () => {
                   ></div>
 
                   <img
-                    src={`/src/assets/animals/${item.img}`}
+                    src={/animals/`${item.img}`}
                     className={`animal-img ${
                       currentMatching.soundMode ? "animal-sound-img" : ""
                     }`}
@@ -472,7 +472,7 @@ const handleNextClick = () => {
       {currentWriteGame && (
         <div className="animals-write-area">
           <img
-            src={`/src/assets/animals/${currentWriteGame.img}`}
+            src={`/animals/${currentWriteGame.img}`}
             className="animal-task-img"
             alt=""
           />
@@ -534,7 +534,7 @@ const handleNextClick = () => {
                   <h3>{zone.title}</h3>
 
                   <img
-                    src={`/src/assets/animals/${zone.img}`}
+                    src={`/animals/${zone.img}`}
                     className="zone-img"
                     alt=""
                   />
@@ -547,7 +547,7 @@ const handleNextClick = () => {
                     return (
                       <img
                         key={id}
-                        src={`/src/assets/animals/${bird.img}`}
+                        src={`/animals/${bird.img}`}
                         className="group-placed-img"
                         alt=""
                         title="Кайтаруу"
@@ -571,7 +571,7 @@ const handleNextClick = () => {
                   onDragStart={(e) => handleBirdGroupDrag(e, bird.id)}
                 >
                   <img
-                    src={`/src/assets/animals/${bird.img}`}
+                    src={`/animals/${bird.img}`}
                     className="group-animal-img"
                     alt=""
                   />
