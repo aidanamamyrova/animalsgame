@@ -92,6 +92,7 @@ return(
       <p>үй бүлөө</p>
     </div>
   </Link>
+  
 
 </div>
 

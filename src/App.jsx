@@ -17,6 +17,9 @@ import KimExercise from "./pages/31tema/KimExercise";
 import Oku from "./pages/41tema/Oku";
 import OkuExercise from "./pages/41tema/OkuExercise";
 import Kuz from "./pages/7tema/Kuz";
+import AnimalsExercise from "./pages/animals/AnimalsExercise";
+import AnimalsLayout from "./pages/animals/AnimalsLayout";
+import BirdsExercise from "./pages/animals/BirdsExercise";
 
 
 function App() {
@@ -39,7 +42,10 @@ function App() {
       <Route path="/okuu" element={<Oku/>}/>
       <Route path="/okuu-exercise" element={<OkuExercise/>}/>
       <Route path="/kuz" element={<Kuz/>}/>
-      
+     <Route path="/animals-aidana" element={<AnimalsLayout />}>
+    <Route index element={<AnimalsExercise />} />
+    <Route path="birds" element={<BirdsExercise />} />
+</Route>
 
 
 

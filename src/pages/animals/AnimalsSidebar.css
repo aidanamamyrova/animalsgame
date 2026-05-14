@@ -1,0 +1,48 @@
+.animals-sidebar {
+width: 210px;
+
+  position: fixed;
+  top: 60px;
+  left: 0;
+
+  height: calc(100vh - 60px);
+
+  overflow-y: auto;
+
+  background-color: #8dc9d8;
+  padding: 20px 10px;
+
+  box-sizing: border-box;
+}
+
+.animals-topic-wrapper {
+  margin-bottom: 7px;
+}
+
+.animals-topic-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.animals-topic {
+  background-color: #bfe2ec;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1.5px solid #6aa8b7;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.animals-topic:hover {
+  background-color: #d6eff7;
+}
+
+.animals-topic-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a2a3a;
+}
+

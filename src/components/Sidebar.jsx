@@ -33,6 +33,12 @@ function Sidebar() {
     { id: 5, title: "Бул менин классым", path: "/klass", words: "/class-words", exercise: "/klass-exercise" },
         { id: 6, title: " Үй-бүлө", path: "/uibuloo", words: "/uibuloo-words", exercise: "/family-exercise" },
         { id: 8, title: " Күз", path: "/kuz", words: "/uibuloo-words", exercise: "/family-exercise" },
+      
+    { id: 9,
+  title: "Жаныбарлар",
+  path: "/animals-aidana",
+  exercise: "/animals-aidana"
+},
 
   ];
 
